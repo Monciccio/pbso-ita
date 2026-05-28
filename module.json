@@ -1,0 +1,35 @@
+{
+  "id": "pbso-ita",
+  "title": "Phandelver e l'Abisso: L'Obelisco Infranto — ITA",
+  "description": "Traduzione italiana di Phandelver e l'Abisso: L'Obelisco Infranto. Creata da Drimaco. Richiede il modulo Babele.",
+  "version": "1.0.9",
+  "authors": [
+    {
+      "name": "Drimaco"
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module"
+      }
+    ]
+  },
+  "scripts": [],
+  "flags": {
+    "babele": {
+      "directory": "lang/it",
+      "format": "json"
+    }
+  },
+  "manifest": "https://raw.githubusercontent.com/Monciccio/pbso-ita/main/module.json",
+  "download": "https://github.com/Monciccio/pbso-ita/archive/refs/heads/main.zip",
+  "esmodules": [
+    "scripts/setup.mjs"
+  ]
+}
