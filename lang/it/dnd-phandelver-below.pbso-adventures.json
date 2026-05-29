@@ -2053,31 +2053,6 @@
 						}
 					}
 				},
-				"The Nematoda": {
-					"name": "Il Nematoda",
-					"pages": {
-						"The Nematoda": {
-							"name": "Il Nematoda",
-							"text": "<p>Il Nematoda è unico tra i noduli fluttuanti; è una creatura animata se letargica, simile a un parassita cerebrale su scala massiccia, piuttosto che un nodulo inerte. È per lo più inerte ora e funziona come terreno. Si risveglia completamente solo ogni pochi decenni.</p><section class=\"fvtt-relative\"><section class=\"fvtt narrative\"><p>Questo nodulo è a forma di tubo con una massiccia caverna a un'estremità. Diversi cumuli di muschio color ruggine punteggiano la sua superficie viscida.</p></section></section><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/vtt-512.png\" /></figure><article><h3>Attivare la Scena del Nematoda</h3><p>Quando i vostri giocatori arrivano, attivate la Scena del @UUID[Scene.pbsoMap8p5000000]{Nematoda} per questo incontro.</p></article></section><p>@Embed[JournalEntry.pbsoCh8atlas0000.JournalEntryPage.c6zQCgK4hgICpSJG caption=false]</p>"
-						},
-						"The Mouth": {
-							"name": "La Bocca",
-							"text": "<section class=\"fvtt-relative\"><section class=\"fvtt narrative\"><p>Una caverna a un'estremità del nodulo fluttuante ricorda una bocca aperta. Una struttura simile a una piccola tenda ma fatta di ossa o pietra pallida si trova nella parte posteriore della caverna.</p></section></section><p>La tenda è un'apertura fatta di ossa dense come roccia solida. Quando una creatura si avvicina a questa struttura, le pareti della tenda si aprono come un fiore per rivelare una gola spalancata che espelle grovigli intrecciati di tentacoli umidi. Allo stesso tempo, pietre smussate come denti emergono da tutti i lati dell'ingresso della caverna, e la sua apertura si chiude come una bocca che si chiude.</p>"
-						},
-						"Throat": {
-							"name": "La Gola",
-							"text": "<section class=\"fvtt-relative\"><section class=\"fvtt narrative\"><p>La grande gola della creatura è un passaggio organico di 3 metri di diametro. Un lontano pulsare risuona attraverso il pavimento, e le contrazioni fanno increspare le pareti.</p></section></section><p>Le contrazioni si increspano verso le viscere del Nematoda (@UUID[.RLExfRvMmPZXCgo5]{area N4}) ma non sono abbastanza potenti da muovere fisicamente i personaggi in quella direzione.</p>"
-						},
-						"Membrane": {
-							"name": "La Membrana",
-							"text": "<p>Ottanta piedi giù nella gola, i passaggi conducono verso sinistra e verso destra, inclinandosi verso l'alto e curvendosi l'uno verso l'altro. Dove si incontrano, una membrana resistente trattiene la materia cerebrale liquida rudimentale del Nematoda.</p><section class=\"fvtt-relative\"><section class=\"fvtt narrative\"><p>Una spessa membrana traslucida si allunga attraverso un'apertura in una parete, trattenendo un fluido. Il fluido sull'altro lato della membrana la spinge verso l'esterno come un timpano infetto.</p></section></section><p>La bocca del Nematoda rimane chiusa finché la pressione del fluido cerebrale non viene rilasciata. Una volta rilasciato il fluido, il Nematoda apre la bocca e non la chiude per settimane.</p><p><em><strong>Distruggere la Membrana.</strong></em> La membrana ha CA 10, 80 Punti Ferita, e immunità ai danni da percosse, veleno e psichici. Quando la membrana viene ridotta a 0 Punti Ferita, si strappa con un brivido violento, e il Nematoda reagisce con un rigurgito.</p>"
-						},
-						"The Guts": {
-							"name": "Le Viscere",
-							"text": "<section class=\"fvtt-relative\"><section class=\"fvtt narrative\"><p>Il passaggio attraverso la creatura termina improvvisamente in un lago di acido ribollente.</p></section></section><p>La gola termina in una pozza digestiva di 9 metri di diametro e 6 metri di profondità. Qualsiasi creatura che entra nella pozza digestiva per la prima volta nel suo turno o che inizia il suo turno lì subisce [[/damage 6d10 type=acid]] danni. Aumenta i danni a [[/damage 18d10 type=acid]] se la creatura è completamente immersa nella pozza. Una creatura ridotta a 0 Punti Ferita da questo danno acido viene completamente dissolta.</p>"
-						}
-					}
-				},
 				"Toppled Statue": {
 					"name": "La Statua Rovesciata",
 					"pages": {
@@ -2341,6 +2316,31 @@
 						"Klarg's Cave": {
 							"name": "La Caverna di Klarg",
 							"text": "<p>@Embed[JournalEntry.pbsoCh1ArtHandou.JournalEntryPage.16NkJzeTZpXEH2d5]</p><p>Il capo dei goblin Fierefauci insiste nel tenere il grosso dei beni rubati dai razziatori nella sua tana, che contiene bottino da circa 30 giorni di razzie e imboscate alle carovane.</p><section class=\"fvtt-relative\"><section class=\"fvtt narrative\"><p>Sacchi e casse di provviste saccheggiate sono ammucchiati nell'estremità sud di questa grande caverna. A ovest, il pavimento degrada verso una stretta apertura che scende nell'oscurità. Un'apertura più grande conduce a nord giù per una serie di gradini di pietra naturale, e il fragore dell'acqua che cade echeggia da oltre. Al centro della caverna, le braci di un grande fuoco covano.</p></section></section><p>@UUID[Actor.pbsoKlarg0000000]{Klarg} il bugbear condivide questa caverna con due @UUID[Actor.TjWQOgI3A4UAl7lC]{goblin} (le sue \"guardie d'onore\") e il suo lupo da compagnia rognoso @UUID[Actor.yawTeS8u2FCfzzZH]{}, Ripper. Il bugbear è pieno di deliri di grandezza e si considera un potente re che sta appena iniziando la sua carriera di conquista. Si riferisce a se stesso in terza persona: \"Chi osa sfidare Klarg?\" e \"Klarg costruirà un trono con le tue ossa!\"</p><p><em><strong>Pozza di Fuoco.</strong></em> Le braci calde nella pozza di fuoco centrale infliggono [[/damage 1 type=fire]] punto di danno a qualsiasi creatura che entra nell'area, o [[/damage 1d6 type=fire average=true]] danni a qualsiasi creatura che cade lì con la condizione &amp;Reference[condition=prone]{prono}.</p><p><em><strong>Provviste.</strong></em> I mucchi di sacchi e casse forniscono una &amp;Reference[half-cover]{copertura a metà} a qualsiasi creatura che combatte o si nasconde dietro di essi. La maggior parte è contrassegnata con l'immagine di una casa del leone azzurra su sfondo bianco — lo stemma degli eroi della Città di Neverwinter che finanziano il viaggio di rifornimento.</p>"
+						}
+					}
+				},
+				"The Nematode": {
+					"name": "Il Nematoda",
+					"pages": {
+						"The Nematoda": {
+							"name": "Il Nematoda",
+							"text": "<p>Il Nematoda è unico tra i noduli fluttuanti; è una creatura animata se letargica, simile a un parassita cerebrale su scala massiccia, piuttosto che un nodulo inerte. È per lo più inerte ora e funziona come terreno. Si risveglia completamente solo ogni pochi decenni.</p><section class=\"fvtt-relative\"><section class=\"fvtt narrative\"><p>Questo nodulo è a forma di tubo con una massiccia caverna a un'estremità. Diversi cumuli di muschio color ruggine punteggiano la sua superficie viscida.</p></section></section><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/vtt-512.png\" /></figure><article><h3>Attivare la Scena del Nematoda</h3><p>Quando i vostri giocatori arrivano, attivate la Scena del @UUID[Scene.pbsoMap8p5000000]{Nematoda} per questo incontro.</p></article></section><p>@Embed[JournalEntry.pbsoCh8atlas0000.JournalEntryPage.c6zQCgK4hgICpSJG caption=false]</p>"
+						},
+						"The Mouth": {
+							"name": "La Bocca",
+							"text": "<section class=\"fvtt-relative\"><section class=\"fvtt narrative\"><p>Una caverna a un'estremità del nodulo fluttuante ricorda una bocca aperta. Una struttura simile a una piccola tenda ma fatta di ossa o pietra pallida si trova nella parte posteriore della caverna.</p></section></section><p>La tenda è un'apertura fatta di ossa dense come roccia solida. Quando una creatura si avvicina a questa struttura, le pareti della tenda si aprono come un fiore per rivelare una gola spalancata che espelle grovigli intrecciati di tentacoli umidi. Allo stesso tempo, pietre smussate come denti emergono da tutti i lati dell'ingresso della caverna, e la sua apertura si chiude come una bocca che si chiude.</p>"
+						},
+						"Throat": {
+							"name": "La Gola",
+							"text": "<section class=\"fvtt-relative\"><section class=\"fvtt narrative\"><p>La grande gola della creatura è un passaggio organico di 3 metri di diametro. Un lontano pulsare risuona attraverso il pavimento, e le contrazioni fanno increspare le pareti.</p></section></section><p>Le contrazioni si increspano verso le viscere del Nematoda (@UUID[.RLExfRvMmPZXCgo5]{area N4}) ma non sono abbastanza potenti da muovere fisicamente i personaggi in quella direzione.</p>"
+						},
+						"Membrane": {
+							"name": "La Membrana",
+							"text": "<p>Ottanta piedi giù nella gola, i passaggi conducono verso sinistra e verso destra, inclinandosi verso l'alto e curvendosi l'uno verso l'altro. Dove si incontrano, una membrana resistente trattiene la materia cerebrale liquida rudimentale del Nematoda.</p><section class=\"fvtt-relative\"><section class=\"fvtt narrative\"><p>Una spessa membrana traslucida si allunga attraverso un'apertura in una parete, trattenendo un fluido. Il fluido sull'altro lato della membrana la spinge verso l'esterno come un timpano infetto.</p></section></section><p>La bocca del Nematoda rimane chiusa finché la pressione del fluido cerebrale non viene rilasciata. Una volta rilasciato il fluido, il Nematoda apre la bocca e non la chiude per settimane.</p><p><em><strong>Distruggere la Membrana.</strong></em> La membrana ha CA 10, 80 Punti Ferita, e immunità ai danni da percosse, veleno e psichici. Quando la membrana viene ridotta a 0 Punti Ferita, si strappa con un brivido violento, e il Nematoda reagisce con un rigurgito.</p>"
+						},
+						"The Guts": {
+							"name": "Le Viscere",
+							"text": "<section class=\"fvtt-relative\"><section class=\"fvtt narrative\"><p>Il passaggio attraverso la creatura termina improvvisamente in un lago di acido ribollente.</p></section></section><p>La gola termina in una pozza digestiva di 9 metri di diametro e 6 metri di profondità. Qualsiasi creatura che entra nella pozza digestiva per la prima volta nel suo turno o che inizia il suo turno lì subisce [[/damage 6d10 type=acid]] danni. Aumenta i danni a [[/damage 18d10 type=acid]] se la creatura è completamente immersa nella pozza. Una creatura ridotta a 0 Punti Ferita da questo danno acido viene completamente dissolta.</p>"
 						}
 					}
 				}
